@@ -1,0 +1,1 @@
+cabal exec -- runhaskell -isrc -itests tests/Spec.hs

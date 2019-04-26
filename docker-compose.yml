@@ -1,0 +1,7 @@
+version: "3.6"
+services:
+  haskell-environment:
+    image: maxkaemmerer/haskell-environment
+    build: ./.docker
+    volumes:
+     - ./:/app/haskell-environment
