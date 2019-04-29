@@ -1,5 +1,6 @@
 module Start (doubleMe, main) where
 
+main :: IO ()
 main = do
   print (doubleMe 2)
 
